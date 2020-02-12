@@ -1,4 +1,5 @@
 import java.util.*;
+/* Stringクラスに文字列を辞書順で比較してくれるメソッドがあった */
 
 public class B082{
 	public static void main(String args[]){
@@ -20,7 +21,7 @@ public class B082{
 					System.out.println("Yes");
 					getedAnser = true;
 					break;
-				}else{
+				}else if((int)t[i] < (int)s[i]){
 					System.out.println("No");
 					getedAnser = true;
 					break;
